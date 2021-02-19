@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PagedList.Core" Version="1.17.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Site.Model.Derived.EntityModel\Site.Model.Derived.EntityModel.csproj" />
+    <ProjectReference Include="..\Site.Model.Infrastructure\Site.Model.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
